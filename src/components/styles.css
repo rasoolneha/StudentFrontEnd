@@ -1,0 +1,89 @@
+.layout-container {
+    background: rgb(238, 174, 180);
+    background: radial-gradient(circle, rgb(238, 174, 188) 0%, rgb(188, 148, 233) 100%);
+    
+}
+
+nav{
+    /* background: linear-gradient(rgb(212,220,220), rgb(169,130,180), rgb(100,61,110)); */
+    background: rgb(238, 174, 179);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,157,233,1) 100%);
+}
+ /* navbar ends */
+
+/* form starts */
+input,label {
+    display:block;
+}
+
+form{
+    display:flex;
+    flex-direction: column;
+    width: 500px;
+    margin-left: auto;
+}
+
+#submit {
+    width: 50%;
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: palevioletred;
+}
+
+img{
+    height: 300px;
+    margin-top: 30px;
+    display: block;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+#heading {
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+/* Footer starts */
+th {
+    padding: 10px;
+}
+
+ul {
+    padding-left: 0;
+}
+
+li {
+    list-style-type: none;
+    padding: 5px;
+
+}
+
+.footer-form {
+    padding: 100px;
+    margin-left: 15px;
+    padding-left: 15px;
+    width: 100%;
+       
+}
+
+input,label {
+    display:block;
+}
+
+form{
+    display:flex;
+    flex-direction: column;
+    width: 500px;
+    margin-left: auto;
+}
+
+
+.footer-container {
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    background: rgb(238, 174, 180);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,157,233,1) 100%);
+}
